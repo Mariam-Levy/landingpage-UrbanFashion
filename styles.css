@@ -45,7 +45,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #232d60;
+}
+
+a:hover {
+    color: white;
 }
 
 .content h1 {
@@ -107,3 +111,13 @@ nav ul li a {
     padding-right: 20px;
     font-size: 14px;
 }
+
+.social-links a:hover {
+    color: #ffc6ff;
+}
+
+/* --------- MEDIA QUERIES -------- */
+
+@media screen and (min-width: 800px) {
+    
+} 
